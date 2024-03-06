@@ -1,0 +1,66 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-image: url(./mainpage-bg-desktop-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border: 3px solid black;
+    align-items: center;
+}
+
+#nav_container{
+    width: 30%;
+    border: 2px red solid;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+/* makes links white */
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_links{
+    display: flex;
+    gap: 48px;
+    color: white
+}
+
+.header_links{
+    display: inline-block; 
+    cursor: pointer;
+    color: white;
+}
+
+#header_logo {
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#main_container{
+    height: 80%;
+    width: 100%;
+    border: 3px solid black;
+}
+
+#footer{
+    height: 10%;
+    width: 100%;
+    border: 3px solid black;
+}
