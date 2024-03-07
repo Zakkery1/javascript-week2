@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(27, 26, 26, 0.689);
+    font-family: "Karla", sans-serif;
+}
+
+#nav_container{
+    width: 30%;
+    /* border: 2px red solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* removes the bullets from the list */
+li {
+    list-style-type: none;
+}
+/* li a reference to the link, text-decoration removes
+the underlines from the header links */
+li a {
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* gap sets a space evenly between columns and rows */
+/* vw viewport width */
+.nav_links{
+    font-size: 1.2vw;
+    display: flex;
+    gap: 48px;
+}
+/* cursor: pointer; make the mouse cursor turn into a pointer when you
+hover over the element */
+.header_links{
+    display: inline-block; 
+    cursor: pointer;
+}
+
+#header_logo {
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#main{
+    height: 80%;
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+}
+
+#about_me{
+    width: 100%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: "Karla", sans-serif;
+}
+
+#about_p{
+    border-left: 3px solid red;
+    padding-left: 2%;
+    font-size: 14px;
+    font-family: "Karla", sans-serif;
+}
+
+#image{
+    width: 100%;
+    height: 70%;    
+    margin-left: 15%;
+    align-content: center;
+    margin-top: 2%;
+}
+
+#image img{
+    width: 200px;
+    height: 210px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#image h2{
+    margin-top: -3px;
+    padding-left: 8%;
+    align-content: center;
+    font-family: "Karla", sans-serif;
+}
+#image h3{
+    margin-top: -15px;
+    padding-left: 11%;
+    align-content: center;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+#footer{
+    height: 10%;
+    width: 100%;
+    /* border: 3px solid black; */
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#header_logo_footer{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#copyright{
+    margin-left: 10px;
+    font-size: 10px;
+}

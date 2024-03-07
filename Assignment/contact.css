@@ -1,0 +1,150 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(27, 26, 26, 0.689);
+    font-family: "Karla", sans-serif;
+}
+
+#nav_container{
+    width: 30%;
+    /* border: 2px red solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* removes the bullets from the list */
+li {
+    list-style-type: none;
+}
+/* li a reference to the link, text-decoration removes
+the underlines from the header links */
+li a {
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* gap sets a space evenly between columns and rows */
+/* vw viewport width */
+.nav_links{
+    font-size: 1.2vw;
+    display: flex;
+    gap: 48px;
+}
+/* cursor: pointer; make the mouse cursor turn into a pointer when you
+hover over the element */
+.header_links{
+    display: inline-block; 
+    cursor: pointer;
+}
+
+#header_logo {
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#color{
+    /* border: 3px solid black; */
+    height: 20%;
+    width: 100%;
+    background-color: #119AAF;
+}
+
+#form_container{
+    height: 40%;
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+}
+
+#form{
+    width: 30%;
+    height: 100%;
+    font-family: "karla", sans-serif;
+    text-align: center;
+    margin-top: -2%;
+    margin-left: 18%;
+    background-color: white;
+    box-shadow: 3px 3px 5px 5px rgb(183, 183, 183);
+}
+
+#image{
+    width: 10%;
+    height: 10%;
+    /* border-radius: 3px solid red; */
+    display: flex;
+}
+
+#img{
+    /* border-radius: 3px solid red; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 10vw;
+    margin-top: -10vh;
+}
+
+#img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#color1{
+    /* border: 3px solid black; */
+    height: 25%;
+    width: 100%;    
+    background-color: #119AAF;
+}
+
+#footer{
+    height: 10%;
+    width: 100%;
+    /* border: 3px solid black; */
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* position: absolute takes the document out of the flow.  
+    and element with position: absolute is normally positioned in reference with the closest parent.
+    If there isnt a parent elements that has a relative position, 
+    then the absolutely positioned element will take its reference from the browser window. 
+    The bottom property property specifies the distance between the outer edge of the element's bottom margin
+    and the outer edge of the containing block's bottom padding.*/
+    position: absolute;
+    bottom: 0;
+    background-color: #119AAF;
+}
+
+#header_logo_footer{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#copyright{
+    margin-left: 10px;
+    font-size: 10px;
+}
