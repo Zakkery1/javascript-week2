@@ -1,5 +1,5 @@
-// let userPrompt = prompt("Please enter your name!");
-// alert(`Hello ${userPrompt}!`);
+let userPrompt = prompt("Please enter your name!");
+alert(`Hello ${userPrompt}!`);
 
 
 let formHTML = document.getElementById("form");
